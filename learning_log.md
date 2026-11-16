@@ -23,5 +23,18 @@ Then we tested a potentiometer, which is an adjustable resistor and integrated i
 I also learned about voltage dividers and tried to make a photoresistor work.
 
 ## Week 4
-This week had the subject of sound at its core, beginning with buzzers (both passive and active) that can produce sound directly 
+This week had the subject of sound at its core, beginning with buzzers (both passive and active) that can produce sound when they are directly connected to a power source.
 <img width="1074" height="442" alt="image" src="https://github.com/user-attachments/assets/e1b7cc94-31ba-49a7-b85b-5fa2041e1c9b" />
+We were also introduced to the library https://github.com/connornishijima/arduino-volume1 which can be used for volume control on a buzzer. We also played melodies by using readily available C++ code found on the internet.
+Moving on from buzzers we used an ultrasonic distance sensor to detect when a sound source is near.
+
+After the audio section we covered buttons.
+<img width="1358" height="782" alt="image" src="https://github.com/user-attachments/assets/359c7360-14d5-4702-9866-479bc1e9a464" />
+We covered how to read whether a button is being pushed down or not.
+
+## Week 5
+This week we covered servo motors.
+<img width="2272" height="906" alt="image" src="https://github.com/user-attachments/assets/e77492c1-97c1-44f5-8501-c85c36621a8d" />
+In the first part of the exercise we experimented with controlling a servo motor. Then we changed the speed of the servo motor, moving it quickly in one direction and returning to its original state slowly.
+Then we added a joystick to control the servo motor in different directions and glued two servo motors together to create a multidirectionally functional servo motor that could be controlled by a joystick.
+
